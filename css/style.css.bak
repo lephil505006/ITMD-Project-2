@@ -30,6 +30,6 @@
   display: block;
   padding: 20px 150px;
   text-decoration: none;
-  color: #ED6B5B;
+  color: #FFB567;
   font-size: 150%;
 }
