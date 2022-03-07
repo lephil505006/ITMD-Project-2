@@ -42,6 +42,7 @@ body{
   color: #ED6B5B;
   font-size: 150%;
   margin-left: 100px;
+  font-family: 'Georgia', serif;
 }
 
 #navbar-container ul li a:hover{
@@ -50,17 +51,32 @@ body{
   left: -5px;
 }
 
-.resume{
-  font-size: 150%;
+.body{
+  font-family: 'Georgia', serif;
+  font-size: 120%;
   margin-left: 2%;
 }
 
 h1{
+  font-family: 'Fira Mono', serif;	
   font-size: 300%;
   padding: 1%;
 }
 
+h2,h3{
+  font-family: 'Fira Mono', serif;	
+}
+
+h2{
+  color: #FF4F58FF;
+}
+
+h3{
+  color: #669DB3FF;
+}
+
 #nametitle{
+  font-family: 'Fira Mono', serif;		
   color: #669DB3FF;
   font-size: 250%;
   margin-left: 1%;
@@ -97,9 +113,11 @@ button#email{
   border: 1px solid #FF4F58FF;
   background-color: #F0F6F7FF !important;
   position: relative;
-  left: 250%;
+  left: 300%;
   float: left;
   transition: .4s ease-in;
+  width: 150%;
+  margin-bottom: 30%;
 }
 
 button#linkedIn{
@@ -114,14 +132,23 @@ button#linkedIn{
   right: 400%;
   float: right;
   transition: .2s ease-in;
+  width: 150%;
+  margin-bottom: 30%;
 }
 
 button#linkedIn:hover{
   background: #FF4F58FF;
-  box-shadow: 0 0 50px #FF4F58FF, 0 0 200px #FF4F58FF;
+  box-shadow: 0 0 .5em #FF4F58FF, 0 0 2em #FF4F58FF;
 }
 
 button#email:hover{
   background: #FF4F58FF;
-  box-shadow: 0 0 50px #FF4F58FF, 0 0 200px #FF4F58FF;
+  box-shadow: 0 0 .5em #FF4F58FF, 0 0 2em #FF4F58FF;
+}
+
+#contact{
+  font-family: 'Fira Mono', serif;
+  text-align: center;
+  margin-right: 10%;
+  font-size: 150%;
 }

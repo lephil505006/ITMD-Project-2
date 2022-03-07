@@ -6,17 +6,20 @@
 </head>
 <body>
   <header>
-    <nav>
-     <ul>
-       <li><a href="index.html">Home: Resume</a></li>
-       <li><a href="vietnam.html">Facts and Cool Things About Vietnam</a></li>
-       <li><a href="tetris.html">Evolution of Tetris</a></li>
-     </ul>
-    </nav>
+    <nav id="main-navbar">
+       <div id="navbar-container">
+	     <ul>
+	       <link rel="stylesheet" href="css/reset.css">
+		   <link rel="stylesheet" href="css/style.css">
+           <li><a href="index.html">Home: Resume</a></li>
+           <li><a href="vietnam.html">Facts and Cool Things About Vietnam</a></li>
+           <li><a href="tetris.html">Evolution of Tetris</a></li>
+	     </ul>	   
+	   </div>   
+     </nav>
   </header>
   <section class ="vietnam">
     <h1>Facts and Cool Things About Vietnam</h1>
-    <p>All words and information are taken and owend by <a href="https://www.britannica.com/place/Vietnam">britannica.com/place/Vietnam</a></p>
     <h2>Quick Fact</h2>
     <p>The capital, Hanoi, is located in the north, while the country’s largest city, Ho Chi Minh City (formerly Saigon), is in the south. Vietnam experienced a period of prolonged warfare in the mid-20th century, and a partitioning (1954–75), first militarily and later politically, into the Democratic Republic of Vietnam, better known as North Vietnam, and the Republic of Vietnam, usually called South Vietnam. Following reunification in April 1975, the Socialist Republic of Vietnam was established in July 1976.</p>
     <h2>Climate</h2>
@@ -32,6 +35,7 @@
 	  <p>Created By Philip Le</p>
         <address>
 		  <p><a href="mailto:ple2@hawk.iit.edu">ple2@hawk.iit.edu</a></p>
+		  <p>All words and information are taken and owend by <a href="https://www.britannica.com/place/Vietnam">britannica.com/place/Vietnam</a></p>
 		</address>
 	</footer>
   </body>
