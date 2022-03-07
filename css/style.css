@@ -1,7 +1,12 @@
+body{
+	background-color: #F0F6F7FF;
+}
+
 #main-navbar{
-  background-color: #3A3E59;
+  background-color: #FF4F58FF;
   overflow:hidden;
   border-radius: 25px;
+  padding: 10px;
 }
 
 #navbar-container{
@@ -22,14 +27,101 @@
 #navbar-container ul li{
   float: left;
   position: relative;
-  right: 50%;
+  right: 55%;
   display: block;
 }
 
 #navbar-container ul li a{
+  border-style: solid;
+  border-color: #669DB3FF;
+  background-color: #F0F6F7FF;
+  border-radius: 25px;
   display: block;
-  padding: 20px 150px;
+  padding: 20px 70px;
   text-decoration: none;
   color: #ED6B5B;
   font-size: 150%;
+  margin-left: 100px;
+}
+
+#navbar-container ul li a:hover{
+  box-shadow: 10px 10px 0px #669DB3FF;
+  top: -5px;
+  left: -5px;
+}
+
+.resume{
+  font-size: 150%;
+  margin-left: 2%;
+}
+
+h1{
+  font-size: 300%;
+  padding: 1%;
+}
+
+#nametitle{
+  color: #669DB3FF;
+  font-size: 250%;
+  margin-left: 1%;
+}
+
+.links{
+  float:left;
+  width: 100%;
+  position: relative;
+}
+
+.links ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+.links ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+button#email{
+  color: #FF4F58FF;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+  border-radius: 4em;
+  border: 1px solid #FF4F58FF;
+  background-color: #F0F6F7FF !important;
+  position: relative;
+  left: 250%;
+  float: left;
+  transition: .4s ease-in;
+}
+
+button#linkedIn{
+  color: #FF4F58FF;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+  border-radius: 4em;
+  border: 1px solid #FF4F58FF;
+  background-color: #F0F6F7FF !important;
+  position: relative;
+  right: 400%;
+  float: right;
+  transition: .2s ease-in;
+}
+
+button#linkedIn:hover{
+  background: #FF4F58FF;
+  box-shadow: 0 0 50px #FF4F58FF, 0 0 200px #FF4F58FF;
+}
+
+button#email:hover{
+  background: #FF4F58FF;
+  box-shadow: 0 0 50px #FF4F58FF, 0 0 200px #FF4F58FF;
 }
