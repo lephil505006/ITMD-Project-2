@@ -21,14 +21,14 @@
 	   </div>   
      </nav>
    </header>
-   <section class ="resume">
+   <section class ="body">
      <h1>Philip Le</h1>
      <h2 id="nametitle">Cybersecurity Intern</h2>
 	 <p id="contact">Contact Me</p>
 	 <nav id="nav">
 	   <div class="links">
 	     <ul>
-	       <li><button id="linkedIn" onclick="window.location.href='https://www.linkedin.com/in/lephilip/';">LinkedIn</li></button>
+	       <li><button id="linkedIn" onclick="window.location.href='https://www.linkedin.com/in/lephilip/';">LinkedIn</button></li>
            <li><button id="email" onclick="window.location.href='mailto:ple2@hawk.iit.edu';">Email</li></button>
 	     <ul>
 	   </div>  

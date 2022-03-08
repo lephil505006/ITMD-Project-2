@@ -1,5 +1,5 @@
 body{
-	background-color: #F0F6F7FF;
+  background-color: #FFFDD0;
 }
 
 #main-navbar{
@@ -82,6 +82,8 @@ h3{
   margin-left: 1%;
 }
 
+/*Resume Code*/
+
 .links{
   float:left;
   width: 100%;
@@ -151,4 +153,93 @@ button#email:hover{
   text-align: center;
   margin-right: 10%;
   font-size: 150%;
+}
+
+/*Vietname css*/
+
+button#btn{
+  color: #669DB3FF;
+  text-align: center;
+  border-radius: 25px;
+  border-color: #669DB3FF;
+  position: relative;
+  margin-left: 860px;
+  width: 200px;
+  padding: 10px;
+  font-size: 30px;
+  position: relative;
+  transition: .2s ease-in; 
+}
+
+button#btn:hover{
+  box-shadow: 10px 10px 0px #FF4F58FF;
+  top: -5px;
+  left: -5px;
+}
+
+#images{
+  border: 5px solid #669DB3FF;
+  border-radius: 20px;
+  width: 1200px;
+  height: 600px;
+  margin-left: 60px;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;  
+  margin-bottom: 60px;
+}
+
+#summary{
+  border: 2px groove #669DB3FF;	
+  padding: 8px;
+  background-color: #669DB3FF;
+  color: #F0F6F7FF;
+  text-indent: 20px;
+}
+
+#list{
+  float: left;
+  padding: 5px;
+}
+
+#list ul li{
+  margin: 20px 0;
+}
+
+/*Tetris code*/
+
+#classic{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 10px solid #669DB3FF;
+}
+
+#bar{
+  border: 2px groove #669DB3FF;	
+  padding: 8px;
+  background-color: #FF4F58FF;
+  color: #F0F6F7FF;
+  text-indent: 20px;
+}
+
+#video{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 10px solid #669DB3FF;
+}
+
+.text{
+  text-align: center;
+}
+
+#forward{
+  text-align: center;
+}
+
+#forward ul{
+  list-style-type: none;
 }

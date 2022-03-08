@@ -11,6 +11,9 @@
 	     <ul>
 	       <link rel="stylesheet" href="css/reset.css">
 		   <link rel="stylesheet" href="css/style.css">
+		   <link rel="preconnect" href="https://fonts.googleapis.com">
+		   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
            <li><a href="index.html">Home: Resume</a></li>
            <li><a href="vietnam.html">Facts and Cool Things About Vietnam</a></li>
            <li><a href="tetris.html">Evolution of Tetris</a></li>
@@ -18,18 +21,34 @@
 	   </div>   
      </nav>
   </header>
-  <section class ="vietnam">
+  <section class ="body">
     <h1>Facts and Cool Things About Vietnam</h1>
-    <h2>Quick Fact</h2>
-    <p>The capital, Hanoi, is located in the north, while the country’s largest city, Ho Chi Minh City (formerly Saigon), is in the south. Vietnam experienced a period of prolonged warfare in the mid-20th century, and a partitioning (1954–75), first militarily and later politically, into the Democratic Republic of Vietnam, better known as North Vietnam, and the Republic of Vietnam, usually called South Vietnam. Following reunification in April 1975, the Socialist Republic of Vietnam was established in July 1976.</p>
-    <h2>Climate</h2>
-    <p>The northern part of Vietnam is on the edge of the tropical climatic zone. During January, the coldest month of the year, Hanoi has a mean temperature of 63 °F (17 °C), while the annual average temperature is 74 °F (23 °C). Farther south, the average annual temperature in Hue is 77 °F (25 °C) and in Ho Chi Minh City is 81 °F (27 °C); in the highland city of Da Lat, it drops to 70 °F (21 °C). The winter season in northern Vietnam lasts from November to April; from early February to the end of March there is a persistent drizzle, and March and April are sometimes considered to be a transitional period.</p>
-    <h2>Cần Thơ</h2>
-    <p>Cần Thơ is famous for its floating markets in which tourists can explore Vietnamese culture and food at its finest. There are also a great many museums, pagodas, and Buddhist temples to visit in the surrounding area, which attracts many international visitors.</p>
-    <img src="./resources/cantho.jpg" alt="Cần Thơ">
-    <h2>Ninh Kieu Wharf</h2>
-    <p>Ninh Kieu Wharf is a popular tourist stop in Can Tho city, just a few minutes off the centre. You will find a green park running parallel to Hai Ba Trung street, a night market, plenty of restaurants and bars, hotels, a statue of Uncle Ho and a gorgeous view. It is located on the bank of the Hau River, which is a tributary of the Mekong River, and makes for a popular spot to watch the sunset. The view over the river with colourful fishing and trading boats moored at all angles on the shimmering golden water at sunset is extremely photogenic. You can stroll around the park for a bit, snap a few photos, head off to eat and have a drink at a pub, and then check the night market out..</p>
-    <img src="./resources/ninh.jpg" alt="Ninh Kieu Wharf">
+	<h2 id="summary">Quick Summary</h2>
+	<p>If you didn't know already, Vietnam is a country in Southeast Asia. Having been born there and recently visited over there, I thought talking about some popular sites would be interesting. Vietnam can be recongized by it's extreme hot weather, cultural food, and tourist locations.</p>
+    <button id="btn" onclick="window.location.href='https://www.britannica.com/place/Can-Tho';">Can Tho</button>
+    <p>Can Thơ is one of the major cities of Vietnam can be easily recongized by the following:</p>
+    <div id="list">
+	  <ul>
+	    <li>Long rivers</li>
+		<li>Market/Restaurant boats</li>
+		<li>Fish market like docks</li>
+		<li>Hot and humid temperatures</li>
+		<li>Farm lands</li>
+	  </ul>	
+	</div>
+	<img id="images" src="./resources/cantho.jpg" alt="Cần Thơ">
+    <button id="btn" onclick="window.location.href='https://www.originvietnam.com/destination/vietnam/can-tho/ninh-kieu-wharf.html';">Ninh Kieu Wharf</button>
+    <p>Ninh Kieu Wharf is a highly visited tourist spot (mostly at night). As seen in the image, this site uses the river of Can Tho and is more modernized. Visiting this area you can expect: </p>
+	<div id="list">
+	  <ul>
+	    <li>Long rivers</li>
+		<li>Market/Restaurant boats</li>
+		<li>Fish market like docks</li>
+		<li>Hot and humid temperatures</li>
+		<li>Farm lands</li>
+	  </ul>	
+	</div>
+    <img id="images" src="./resources/ninh.jpg" alt="Ninh Kieu Wharf">
   </section>
 	<footer>
 	  <p>Created By Philip Le</p>
