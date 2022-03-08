@@ -234,9 +234,12 @@ button#btn:hover{
 
 .text{
   text-align: center;
-  list-style-type: none;
 }
 
 #forward{
   text-align: center;
+}
+
+#forward ul{
+  list-style-type: none;
 }

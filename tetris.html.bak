@@ -29,7 +29,7 @@
     <p><em>GIF of NES Tetris</em></p>
     <h2 id="bar">Moving Foward</h2>
     <p class="text">As time moved on, more and more development for Tetris was under way. For example, Tetris was released on more devices such as:</p>
-	<div class="text">
+	<div id="forward">
       <ul>
         <li>PC</li>
 	    <li>Mobile Devices (Android, Apple, etc.)</li>

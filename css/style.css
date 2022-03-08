@@ -157,7 +157,7 @@ button#email:hover{
 
 /*Vietname css*/
 
-button#btn{
+button.btn{
   color: #669DB3FF;
   text-align: center;
   border-radius: 25px;
@@ -171,13 +171,13 @@ button#btn{
   transition: .2s ease-in; 
 }
 
-button#btn:hover{
+button.btn:hover{
   box-shadow: 10px 10px 0px #FF4F58FF;
   top: -5px;
   left: -5px;
 }
 
-#images{
+.images{
   border: 5px solid #669DB3FF;
   border-radius: 20px;
   width: 1200px;
@@ -197,12 +197,12 @@ button#btn:hover{
   text-indent: 20px;
 }
 
-#list{
+.list{
   float: left;
   padding: 5px;
 }
 
-#list ul li{
+.list ul li{
   margin: 20px 0;
 }
 

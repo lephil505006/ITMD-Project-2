@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang ="en">
 <head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Project 1: Facts and Cool Things About Vietnam</title>
 </head>
@@ -9,11 +14,6 @@
     <nav id="main-navbar">
        <div id="navbar-container">
 	     <ul>
-	       <link rel="stylesheet" href="css/reset.css">
-		   <link rel="stylesheet" href="css/style.css">
-		   <link rel="preconnect" href="https://fonts.googleapis.com">
-		   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
            <li><a href="index.html">Home: Resume</a></li>
            <li><a href="vietnam.html">Facts and Cool Things About Vietnam</a></li>
            <li><a href="tetris.html">Evolution of Tetris</a></li>
@@ -41,11 +41,11 @@
     <p>Ninh Kieu Wharf is a highly visited tourist spot (mostly at night). As seen in the image, this site uses the river of Can Tho and is more modernized. Visiting this area you can expect: </p>
 	<div id="list">
 	  <ul>
-	    <li>Long rivers</li>
-		<li>Market/Restaurant boats</li>
-		<li>Fish market like docks</li>
-		<li>Hot and humid temperatures</li>
-		<li>Farm lands</li>
+	    <li>Large boat cruise</li>
+		<li>A large scenic bridge</li>
+		<li>Cooler breezes</li>
+		<li>Several large parks</li>
+		<li>Several high end restaurants</li>
 	  </ul>	
 	</div>
     <img id="images" src="./resources/ninh.jpg" alt="Ninh Kieu Wharf">
