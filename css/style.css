@@ -216,7 +216,7 @@ button.btn:hover{
   border: 10px solid #669DB3FF;
 }
 
-#bar{
+.bar{
   border: 2px groove #669DB3FF;	
   padding: 8px;
   background-color: #FF4F58FF;
@@ -224,7 +224,7 @@ button.btn:hover{
   text-indent: 20px;
 }
 
-#video{
+.video{
   display: block; 
   margin-left: auto;
   margin-right: auto;
