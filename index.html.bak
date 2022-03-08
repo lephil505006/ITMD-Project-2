@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang ="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Project 1: Resume</title>
-  </head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Project 1: Resume</title>
+</head>
 <body>
    <header>
      <nav id="main-navbar">
        <div id="navbar-container">
 	     <ul>
-	       <link rel="stylesheet" href="css/reset.css">
-		   <link rel="stylesheet" href="css/style.css">
-		   <link rel="preconnect" href="https://fonts.googleapis.com">
-		   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
            <li><a href="index.html">Home: Resume</a></li>
            <li><a href="vietnam.html">Facts and Cool Things About Vietnam</a></li>
            <li><a href="tetris.html">Evolution of Tetris</a></li>
@@ -29,7 +29,7 @@
 	   <div class="links">
 	     <ul>
 	       <li><button id="linkedIn" onclick="window.location.href='https://www.linkedin.com/in/lephilip/';">LinkedIn</button></li>
-           <li><button id="email" onclick="window.location.href='mailto:ple2@hawk.iit.edu';">Email</li></button>
+           <li><button id="email" onclick="window.location.href='mailto:ple2@hawk.iit.edu';">Email</button></li>
 	     <ul>
 	   </div>  
 	 </nav>  
