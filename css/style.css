@@ -25,6 +25,12 @@ body{
   float: left;
 }
 
+#navbar-container li{
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
 #navbar-container ul li{
   float: left;
   position: relative;
@@ -38,7 +44,7 @@ body{
   background-color: #F0F6F7FF;
   border-radius: 25px;
   display: block;
-  padding: 20px 70px;
+  padding: 20px 35px;
   text-decoration: none;
   color: #ED6B5B;
   font-size: 150%;
