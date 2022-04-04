@@ -25,7 +25,7 @@
     <h1>Evolution of Tetris</h1>
     <h2 class="bar">History of Tetris</h2>
     <p class="text">The history of Tetris scales back all the way to 1984, where a Russin scientist named Alexey Pajitnov developed the very first Tetris that most of all know. In 1988, Video game designer and publisher Henk Rogers discovers Tetris at a Las Vegas tradeshow and is instantly hooked on the game. Soon after, Henk's company, Bullet-Proof Software, releases Tetris on the PC and NES in Japan. It becomes a "software blockbuster," selling over two million copies.</p>
-    <img id="classic" src="./resources/spin.gif" alt="Classic Tetris">
+    <img id="classic" src="resources/spin.gif" alt="Classic Tetris">
     <p><em>GIF of NES Tetris</em></p>
     <h2 class="bar">Moving Foward</h2>
     <p class="text">As time moved on, more and more development for Tetris was under way. For example, Tetris was released on more devices such as:</p>
