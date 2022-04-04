@@ -36,7 +36,7 @@
 		<li>Farm lands</li>
 	  </ul>	
 	</div>
-	<img class="images" src="./resources/cantho.jpg" alt="Cần Thơ">
+	<img class="images" src="resources/cantho.jpg" alt="Cần Thơ">
     <button class="btn" onclick="window.location.href='https://www.originvietnam.com/destination/vietnam/can-tho/ninh-kieu-wharf.html';">Ninh Kieu Wharf</button>
     <p>Ninh Kieu Wharf is a highly visited tourist spot (mostly at night). As seen in the image, this site uses the river of Can Tho and is more modernized. Visiting this area you can expect: </p>
 	<div class="list">
@@ -48,7 +48,7 @@
 		<li>Several high end restaurants</li>
 	  </ul>	
 	</div>
-    <img class="images" src="./resources/ninh.jpg" alt="Ninh Kieu Wharf">
+    <img class="images" src="resources/ninh.jpg" alt="Ninh Kieu Wharf">
   </section>
 	<footer>
 	  <p>Created By Philip Le</p>
